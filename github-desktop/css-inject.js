@@ -8,7 +8,7 @@
 
 var html_file = require("path").join(process.resourcesPath, "app/index.html");
 var html = require("fs").readFileSync(html_file, "utf8");
-var link_to_inject = '<link href="https://cdn.rawgit.com/angusyg/app-config/9fec9d14/github-desktop/angus-dark.css" rel="stylesheet">';
+var link_to_inject = '<link href="https://rawgit.com/angusyg/app-config/master/github-desktop/angus-dark.css">';
 var link_regex = /<link href="https:\/\/cdn\.rawgit\.com\/angusyg.*?" rel="stylesheet">/;
 html = html.replace(link_regex, "").replace("</head>", `\n${link_to_inject}</head>`);
 require("fs").writeFileSync(html_file, html, "utf8");

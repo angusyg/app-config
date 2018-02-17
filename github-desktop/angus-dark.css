@@ -385,13 +385,13 @@ body.platform-win32 .select-component select {
   color: #66D9EF !important;
 }
 .cm-property {
-  color: #7c83ec !important;
+  color: rgba(255, 255, 255, 0.78) !important;
 }
 .cm-attribute {
   color: dodgerblue !important;
 }
 span[class*="cm-string"] {
-  color: #50d8e8 !important
+  color: #E6DB74 !important
 }
 .cm-comment {
   color: #517598 !important;
@@ -404,4 +404,8 @@ span[class*="cm-variable"] {
 }
 .cm-type {
   color: #a659fb !important;
+}
+
+.cm-m-javascript.cm-operator {
+  color: #F92672 !important;
 }

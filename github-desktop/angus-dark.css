@@ -388,7 +388,7 @@ body.platform-win32 .select-component select {
   color: #7c83ec !important;
 }
 .cm-attribute {
-  color: dodgerblue !important;
+  color: red !important;
 }
 span[class*="cm-string"] {
   color: #50d8e8 !important

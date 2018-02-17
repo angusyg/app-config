@@ -391,16 +391,16 @@ body.platform-win32 .select-component select {
   color: dodgerblue !important;
 }
 span[class*="cm-string"] {
-  color: #E6DB74 !important
+  color: rgba(230, 219, 116, 0.91) !important;
 }
 .cm-comment {
-  color: #517598 !important;
+  color: #696969 !important;
 }
 .cm-link {
   color: violet !important;
 }
 span[class*="cm-variable"] {
-  color: #5c85c1 !important;
+  color: #FFFFFF !important;
 }
 .cm-type {
   color: #a659fb !important;

@@ -394,13 +394,13 @@ span[class*="cm-string"] {
   color: rgba(230, 219, 116, 0.91) !important;
 }
 .cm-comment {
-  color: #696969 !important;
+  color: #808080 !important;
 }
 .cm-link {
   color: violet !important;
 }
 span[class*="cm-variable"] {
-  color: #FFFFFF !important;
+  color: #75d1ff !important;
 }
 .cm-type {
   color: #a659fb !important;
